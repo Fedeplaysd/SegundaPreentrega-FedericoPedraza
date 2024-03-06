@@ -1,0 +1,14 @@
+.divCounter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.divCounter button {
+  font-size: 32px;
+  padding: 12px;
+  height: 50px;
+  width: 100px;
+  background-color: lightgray;
+}

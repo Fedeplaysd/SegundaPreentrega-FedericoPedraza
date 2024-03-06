@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* button {
+  background-color: transparent;
+  margin: 2.5px;
+  border: 1px solid #FEECE2;
+  padding: 2.9px;
+  color: #9B4444;
+  font-size: 15px;
+  cursor: pointer;
+}
+* img {
+  border: 1px solid #FEECE2;
+  border-radius: 1.9px;
+}
+* header {
+  border-bottom: 0.5px solid #9B4444;
+  padding: 8px;
+  background-color: #E0CCBE;
+}
