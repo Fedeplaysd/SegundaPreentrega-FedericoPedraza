@@ -10,7 +10,7 @@ const NavBar = () => {
         <section>
           <button><Link to={'/category/:celular'}>Celulares</Link></button>
           <button><Link to={'/category/:tablet'}>Consolas de videojuegos</Link></button>
-          <button><Link to={'/category/:notebooks'}>Notebooks Gamer</Link></button>
+          <button><Link to={'/category/:notebooks'}style={{textDecoration: "none", color: "black"}}>Notebooks Gamer</Link></button>
         </section>
         <CartWidget />
       </nav>
