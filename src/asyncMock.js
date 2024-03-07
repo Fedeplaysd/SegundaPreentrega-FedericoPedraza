@@ -23,7 +23,7 @@ const products = [
     price: 1200,
     category: "tablet",
     img: "https://medias.musimundo.com/medias/00406046-143516-143516-01-143516-01.jpg-size515?context=bWFzdGVyfGltYWdlc3w1MjI1MnxpbWFnZS9qcGVnfGhjMC9oYWMvMTAyODM0OTc0NTU2NDYvMDA0MDYwNDYtMTQzNTE2LTE0MzUxNl8wMS0xNDM1MTZfMDEuanBnX3NpemU1MTV8MzA0NmMzNGFhZjUwMDY2YjY5MjU0MjlkMGJlYWMxODAxZjE5ODJhZmJlOTczZThmZjE2NTQxMjU5NjE2OTA4Yw",
-    stock: 0,
+    stock: 30,
     description: "El iPad es una tablet fabricada por Apple que ofrece una pantalla táctil de alta resolución, potente rendimiento, una amplia selección de aplicaciones y servicios a través de la App Store, y una variedad de modelos que van desde el iPad estándar hasta el iPad Pro con capacidades profesionales y soporte para el Apple Pencil.",
   },
   {
@@ -32,7 +32,7 @@ const products = [
     price: 1920,
     category: "notebooks",
     img: 	"https://images.fravega.com/f500/1d2ea08cf34e7f9df8fece68e10aabfb.jpg",
-    stock: 0,
+    stock: 10,
     description: "La Lenovo G15 es un modelo de laptop de la serie IdeaPad de Lenovo. Ofrece un equilibrio entre rendimiento y precio, con una pantalla de 15 pulgadas, un procesador de última generación, opciones de gráficos dedicados y una variedad de puertos de conectividad. Es adecuada para tareas diarias como navegación web, trabajo de oficina, reproducción de medios y juegos ligeros.",
   }
 ];
