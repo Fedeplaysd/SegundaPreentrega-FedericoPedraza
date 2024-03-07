@@ -8,9 +8,9 @@ const NavBar = () => {
       <nav>
         <h1>Bienvenidos a MundoGamerStore</h1>
         <section>
-          <Link to={'/category/:celular'}>Celulares</Link>
-          <Link to={'/category/:tablet'}>Consolas de videojuegos</Link>
-          <Link to={'/category/:notebooks'}>Notebooks Gamer</Link>
+          <button><Link to={'/category/:celular'}>Celulares</Link></button>
+          <button><Link to={'/category/:tablet'}>Consolas de videojuegos</Link></button>
+          <button><Link to={'/category/:notebooks'}>Notebooks Gamer</Link></button>
         </section>
         <CartWidget />
       </nav>
