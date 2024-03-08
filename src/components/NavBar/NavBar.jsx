@@ -8,9 +8,10 @@ const NavBar = () => {
       <nav>
         <h1>Bienvenidos a MundoGamerStore</h1>
         <section>
-          <button><Link to={'/category/:celular'}>Celulares</Link></button>
-          <button><Link to={'/category/:tablet'}>Consolas de videojuegos</Link></button>
-          <button><Link to={'/category/:notebooks'}style={{textDecoration: "none", color: "black"}}>Notebooks Gamer</Link></button>
+          <button><Link to={'/category/celular'}>Celulares</Link></button>
+          <button><Link to={'/category/tablet'}>Tablets</Link></button>
+          <button><Link to={'/category/notebooks'}>Notebooks Gamer</Link></button>
+          <button><Link to={'/'}>Inicio</Link></button>
         </section>
         <CartWidget />
       </nav>

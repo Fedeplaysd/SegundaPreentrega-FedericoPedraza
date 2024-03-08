@@ -5,11 +5,25 @@
   text-decoration: none;
   color: black;
 }
+* section button {
+  background-color: transparent;
+  margin: 5px;
+  border: 1px solid #FEECE2;
+  border-bottom: 1px solid #f17c3d ;
+  border-top: 1px solid #f17c3d ;
+  box-shadow: black 1.8px 1.7px 1.9px;
+  border-radius: 12px;
+  padding: 7px;
+  color: #9B4444;
+  font-size: 15px;
+  cursor: pointer;
+}
 * button {
   background-color: transparent;
-  margin: 2.5px;
-  border: 1px solid #FEECE2;
-  padding: 2.9px;
+  margin: 5px;
+  border: 1px solid #f17c3d;
+  border-radius: 12px;
+  padding: 7px;
   color: #9B4444;
   font-size: 15px;
   cursor: pointer;
